@@ -11,24 +11,24 @@ export default function Page() {
           <li>Choose the difficulty level below:</li>
         </ul>
         <div className="mt-4 flex space-x-4">
-          <a
-            href="/game?difficulty=easy"
+          <Link
+            href="/game/easy"
             className="bg-green-500 hover:bg-green-400 text-white font-bold py-2 px-4 rounded"
           >
             Easy
-          </a>
-          <a
-            href="/game?difficulty=medium"
+          </Link>
+          <Link
+            href="/game/medium"
             className="bg-yellow-500 hover:bg-yellow-400 text-white font-bold py-2 px-4 rounded"
           >
             Medium
-          </a>
-          <a
-            href="/game?difficulty=hard"
+          </Link>
+          <Link
+            href="/game/hard"
             className="bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 rounded"
           >
             Hard
-          </a>
+          </Link>
         </div>
       </div>
     </div>
